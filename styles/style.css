@@ -120,6 +120,7 @@ ol {
   -webkit-appearance: none;
   appearance: none;
   padding: 2px 0;
+  background-color: #1b1919;
 }
 
 .search-form__textfield:focus {
@@ -173,7 +174,7 @@ ol {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 1px;
+  outline-offset: -3px;
 }
 
 .button:active {
@@ -243,6 +244,11 @@ ol {
 .content__card-link_current,
 .content__card-link:active {
   background: #545050;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .content__card-link:focus-visible {
